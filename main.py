@@ -9,7 +9,7 @@ os.system('git push')
 
 def redraw_window(win):
     win.fill((255, 0, 0))
-    win.blit(pygame.image.load(os.path.join('assets', '10_of_clubs.png')), (0, 0))
+    win.blit(pygame.image.load(os.path.join('assets', '10_Clubs.png')), (0, 0))
 
 WIDTH, HEIGHT = 1250, 750
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
