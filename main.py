@@ -8,7 +8,7 @@ os.system('git push')
 # ------------------------------------------
 
 def redraw_window(win):
-    win.blit(pygame.image.load(os.path.join('assets', '1000_Chip.png')), (0, 0))
+    win.fill((100, 225, 100))
 
 WIDTH, HEIGHT = 1250, 750
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
