@@ -8,7 +8,7 @@ os.system('git push')
 # ------------------------------------------
 
 def redraw_window(win):
-    win.fill((100, 225, 100))
+    win.fill((0, 150, 0))
 
 WIDTH, HEIGHT = 1250, 750
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
